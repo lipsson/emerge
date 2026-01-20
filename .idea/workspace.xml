@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7487c55-53d8-40c8-b297-d10968a84d88" name="Changes" comment="Aplikacja do podglądu zdarzeń systemowych">
-      <change afterPath="$PROJECT_DIR$/apps/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f7487c55-53d8-40c8-b297-d10968a84d88" name="Changes" comment="Aplikacja do podglądu zdarzeń systemowych - api">
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/src/events/controller/events.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/src/events/module/events.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/src/events/services/events.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/src/events/services/events.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/src/events/types/events.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/api/apps/api/api/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +29,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/apps/api" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -35,7 +54,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/mlipinski/WebstormProjects/e3/emerge",
+    "last_opened_file_path": "/Users/mlipinski/WebstormProjects/e3/emerge/apps/api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/api" />
       <recent name="$PROJECT_DIR$/apps/frontend/src/locales" />
       <recent name="$PROJECT_DIR$/apps/frontend/src/utils" />
       <recent name="$PROJECT_DIR$/apps/frontend/src/hooks" />
       <recent name="$PROJECT_DIR$/apps/frontend/src/components" />
-      <recent name="$PROJECT_DIR$/apps/frontend/src/layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps/frontend/src/types" />
@@ -91,6 +110,7 @@
       <workItem from="1768914868780" duration="10171000" />
       <workItem from="1768925119329" duration="20196000" />
       <workItem from="1768945639087" duration="206000" />
+      <workItem from="1768945865414" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="Aplikacja do podglądu zdarzeń systemowych">
       <option name="closed" value="true" />
@@ -100,51 +120,26 @@
       <option name="project" value="LOCAL" />
       <updated>1768944420154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aplikacja do podglądu zdarzeń systemowych - api">
+      <option name="closed" value="true" />
+      <created>1768946240710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768946240710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="81088b8c-08d5-4517-8772-d19a9f301d96" value="TOOL_WINDOW" />
-        <entry key="56603323-cda5-4990-a15c-ba2191ae299c" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="56603323-cda5-4990-a15c-ba2191ae299c">
+        <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
-          </value>
-        </entry>
-        <entry key="81088b8c-08d5-4517-8772-d19a9f301d96">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -153,7 +148,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Aplikacja do podglądu zdarzeń systemowych" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aplikacja do podglądu zdarzeń systemowych" />
+    <MESSAGE value="Aplikacja do podglądu zdarzeń systemowych - api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplikacja do podglądu zdarzeń systemowych - api" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
