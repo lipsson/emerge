@@ -1,0 +1,15 @@
+import { defaultFont } from "@/theme/core";
+import type { SettingsState } from "./drawer/types/types.ts";
+
+export const STORAGE_KEY = "app-settings";
+
+export const defaultSettings: SettingsState = {
+  colorScheme: "light",
+  direction: "ltr",
+  contrast: "default",
+  navLayout: "vertical",
+  primaryColor: "default",
+  navColor: "integrate",
+  compactLayout: true,
+  fontFamily: defaultFont,
+} as const;

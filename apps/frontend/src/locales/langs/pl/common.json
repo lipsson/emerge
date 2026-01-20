@@ -1,0 +1,56 @@
+{
+  "app": {
+    "title": "Przeglądarka Zdarzeń Systemowych"
+  },
+  "actions": {
+    "cancel": "Anuluj",
+    "confirm": "Czy chcesz naprawdę usunąć ten certyfikat",
+    "confirmAll": "Czy chcesz naprawdę usunąć wszystkie certyfikaty",
+    "consents": "Zgody",
+    "delete": "Usuń",
+    "empty": "brak",
+    "lang": "Język",
+    "localTime": "Czas lokalny",
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się",
+    "mode": "Tryb",
+    "options": "Opcje",
+    "readLess": "Czytaj mniej",
+    "readMore": "Czytaj wiecej",
+    "requiredField": "Pole obowiązkowe",
+    "selectRows": "wybranych rekordów"
+  },
+  "table": {
+    "id": "ID",
+    "message": "Treść zdarzenia",
+    "date": "Data",
+    "level": "Poziom",
+    "empty": "Brak rekordów"
+  },
+  "filters": {
+    "minLevel": "Poziom minimalny:",
+    "startDate": "Od",
+    "endDate": "Do"
+  },
+  "apiResponse": {
+    "error": {},
+    "info": {
+      "processing": "Procesuje",
+      "verify": "Weryfikuje"
+    },
+    "success": {},
+    "warning": {
+      "token": "Problem z odświeżeniem token'u"
+    }
+  },
+  "file": {
+    "add": {
+      "add": "Upuść lub wybierz plik",
+      "browse": "aby przegladać",
+      "info": "Upuść pliki tutaj lub kliknij, <linkTo>{{browse}}</linkTo> poprzez twój komputer"
+    },
+    "file": "Plik",
+    "upload": "Zweryfikuj i wgraj plik",
+    "warning": "Musisz usunąć ten plik i dodać inny"
+  }
+}

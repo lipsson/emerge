@@ -1,0 +1,49 @@
+{
+  "app": {
+    "title": "File Manager"
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "confirm": "Do you really want to delete this certificate",
+    "confirmAll": "Do you really want to remove all certificates",
+    "consents": "Consents",
+    "delete": "Delete",
+    "empty": "empty",
+    "lang": "Language",
+    "localTime": "Local time",
+    "mode": "Mode",
+    "options": "Options"
+  },
+  "table": {
+    "message": "Event content",
+    "date": "Date",
+    "level": "Level",
+    "empty": "No events yet"
+  },
+  "filters": {
+    "minLevel": "Minimum level",
+    "startDate": "From",
+    "endDate": "To"
+  },
+  "apiResponse": {
+    "error": {},
+    "info": {
+      "processing": "Processing",
+      "verify": "Verifying"
+    },
+    "success": {},
+    "warning": {
+      "token": "Problem refreshing the token"
+    }
+  },
+  "file": {
+    "add": {
+      "add": "Drop or select file",
+      "browse": "to browse",
+      "info": "Drop or select file <linkTo>{{browse}}</linkTo> via your computer"
+    },
+    "file": "File",
+    "upload": "Verify & upload file",
+    "warning": "You need to delete this file and add another one"
+  }
+}
